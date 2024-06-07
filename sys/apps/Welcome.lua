@@ -9,7 +9,7 @@ local shell    = _ENV.shell
 
 local splashIntro = [[First Time Setup
 
-%sThanks for installing Opus OS. The next screens will prompt you for basic settings for this computer.]]
+%sThanks for installing BingOS. The next screens will prompt you for basic settings for this computer.]]
 local labelIntro = [[Set a friendly name for this computer.
 
 %sNo spaces recommended.]]
@@ -19,17 +19,7 @@ local passwordIntro = [[A password is required for wireless access.
 local packagesIntro = [[Setup Complete
 
 %sOpen the package manager to add software to this computer.]]
-local contributorsIntro = [[Contributors%s
-
-Anavrins:    Encryption/security/custom apps
-Community:   Several selected applications
-hugeblank:   Startup screen improvements
-LDDestroier: Art design + custom apps
-Lemmmy:      Application improvements
-
-%sContribute at:%s
-https://github.com/kepler155c/opus]]
-
+local contributorsIntro = [[]]
 local page = UI.Page {
 	wizard = UI.Wizard {
 		ey = -2,
